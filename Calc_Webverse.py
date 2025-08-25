@@ -1,23 +1,27 @@
+
 import tkinter as tk
+
 
 class Calculadora:
     def __init__(self, master):
         self.master = master
-        master.title("Calculadora")
+        master.title("Webverse_Calc")
+        master.config(bg='#9867e6')
 
-        self.entrada = tk.Entry(master, width=16, font=('Arial', 24), borderwidth=2, relief="ridge", justify='right')
+        self.entrada = tk.Entry(master, bg= "#55348a", fg= "white",  width=16, font=('Comic Sans MS', 24), borderwidth=5, relief="ridge", justify='left' \
+        '')
         self.entrada.grid(row=0, column=0, columnspan=4)
-
+        
         botoes = [
-            ('7', 1, 0), ('8', 1, 1), ('9', 1, 2), ('/', 1, 3),
-            ('4', 2, 0), ('5', 2, 1), ('6', 2, 2), ('*', 2, 3),
-            ('1', 3, 0), ('2', 3, 1), ('3', 3, 2), ('-', 3, 3),
-            ('0', 4, 0), ('.', 4, 1), ('C', 4, 2), ('+', 4, 3),
-            ('=', 5, 0, 4)
+            ('+', 1, 0 , 3), ('-', 1, 1 , 5),
+            ('9', 2, 0), ('8', 2, 1), ('7', 2, 2), ('.', 2, 3),
+            ('6', 3, 0), ('5', 3, 1), ('4', 3, 2), ('C', 3, 3),
+            ('2', 4, 0), ('1', 4, 1), ('0', 4, 2), ('=', 4, 3),
         ]
 
+
         for (texto, linha, coluna, colspan) in [(b[0], b[1], b[2], 1) if len(b) == 3 else b for b in botoes]:
-            botao = tk.Button(master, text=texto, width=5, height=2, font=('Arial', 18),
+            botao = tk.Button(master, text=texto, bg="#9867e6", width=5, height=2, font=('Comic Sans MS', 18),
                               command=lambda t=texto: self.clicar(t))
             botao.grid(row=linha, column=coluna, columnspan=colspan)
 
