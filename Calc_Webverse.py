@@ -1,46 +1,74 @@
-
 import tkinter as tk
 
+janela = tk.Tk()
+janela.title("Programa_verso_Calc")
+janela.configure(bg= '#9867e6')
 
-class Calculadora:
-    def __init__(self, master):
-        self.master = master
-        master.title("Webverse_Calc")
-        master.config(bg='#9867e6')
+tela = tk.Entry(
+    janela, width=20, borderwidth= 3, 
+    bg= '#55348a', fg= 'white', font=('Quartz MS', 24),
+    justify= 'left', insertbackground='white'
+)
+tela.grid(row= 4, column= 0, columnspan= 4, padx= 10, pady= 20, sticky="nsew")
 
-        self.entrada = tk.Entry(master, bg= "#55348a", fg= "white",  width=16, font=('Comic Sans MS', 24), borderwidth=5, relief="ridge", justify='left' \
-        '')
-        self.entrada.grid(row=0, column=0, columnspan=4)
-        
-        botoes = [
-            ('+', 1, 0 , 3), ('-', 1, 1 , 5),
-            ('9', 2, 0), ('8', 2, 1), ('7', 2, 2), ('.', 2, 3),
-            ('6', 3, 0), ('5', 3, 1), ('4', 3, 2), ('C', 3, 3),
-            ('2', 4, 0), ('1', 4, 1), ('0', 4, 2), ('=', 4, 3),
-        ]
+def clicar(botao):
+    if botao == "C":
+        tela.delete(0, tk.END)
+    elif botao == "=":
+        try:
+            resultado =  eval(tela.get())
+            tela.delete(0, tk.END)
+            tela.insert(tk.END, str(resultado))
+        except:
+            tela.delete(0, tk.END)
+            tela.insert(tk.END, "ERRO")
+    else:
+        tela.insert(tk.END, botao)
+#Definição dos botões
+botoes = [
+    '(', ')', '←', '+'
+    '9', '8', '7', '-'
+    '6', '5', '4', '*'
+    '3', '2', '1', '/'
+    ',', '0', 'C', '='
+]
+
+cores = {
+    "numero": "#865dc7",
+    "Operador": "#b570e6",
+    "funcao": "#9b46d4",
+    "igual":  "#ae5ce6", 
+    "parenteses": "#c983f7"
+}
+
+row_val = 1
+col_val = 0
+
+for botao in botoes:
+    if botao.isdigit() or botao == ",":
+        cor_bg= cores['numero']
+    elif botao in ['+', '-', '*', '/']:
+        cor_bg= cores['Operador']
+    elif botao == "=":
+        cor_bg = cores['igual']
+    elif botao == ["(", ")"]:
+        cor_bg = cores['parenteses']
+    else:
+        cor_bg = cores['funcao']
+    #Código dos botões
+    tk.Button(
+        tela, text=botao, font=("Comic Sans MC", 18, "bold"), bg= cor_bg, fg="white", 
+        activebackground= "#666", activeforeground="white", bd=0, relief="flat", command=lambda b= botao: clicar(b)
+        ).grid(row=row_val, column=col_val, sticky="nsew", padx= 5, pady= 10, ipady= 10)
+    col_val += 1
+    if col_val > 3:
+        col_val = 0
+        row_val += 1
+
+for i in range(4):
+    tela.grid_columnconfigure(i, weight=1)
+for i in range(row_val + 1):
+    tela.grid_rowconfigure(i, weight=1)
 
 
-        for (texto, linha, coluna, colspan) in [(b[0], b[1], b[2], 1) if len(b) == 3 else b for b in botoes]:
-            botao = tk.Button(master, text=texto, bg="#9867e6", width=5, height=2, font=('Comic Sans MS', 18),
-                              command=lambda t=texto: self.clicar(t))
-            botao.grid(row=linha, column=coluna, columnspan=colspan)
-
-    def clicar(self, valor):
-        if valor == 'C':
-            self.entrada.delete(0, tk.END)
-        elif valor == '=':
-            try:
-                expressao = self.entrada.get()
-                resultado = eval(expressao)
-                self.entrada.delete(0, tk.END)
-                self.entrada.insert(tk.END, str(resultado))
-            except Exception:
-                self.entrada.delete(0, tk.END)
-                self.entrada.insert(tk.END, "Erro")
-        else:
-            self.entrada.insert(tk.END, valor)
-
-if __name__ == "__main__":
-    root = tk.Tk()
-    calc = Calculadora(root)
-    root.mainloop()
+janela.mainloop()
