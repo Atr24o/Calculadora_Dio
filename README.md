@@ -12,3 +12,5 @@ vá para o site: [https://www.python.org/downloads/ a](https://www.python.org/do
 # Recomendação de aplicativo para a execução do arquivo
 
 vá para o site: https://code.visualstudio.com/download e faça download do aplicatico e na sua execução busque executar o arquivo da calculadora
+
+OPICIONAL: Fonte digital para a calculadora: https://font.download/font/quartz-ms
