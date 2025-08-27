@@ -4,12 +4,31 @@ janela = tk.Tk()
 janela.title("Programa_verso_Calc")
 janela.configure(bg= '#9867e6')
 
+
+
 tela = tk.Entry(
     janela, width=15, borderwidth= 3, 
     bg= '#55348a', fg= 'white', font=('Quartz MS', 24),
     justify= 'left', insertbackground='white'
 )
 tela.grid(row= 0, column= 0, columnspan= 4, padx= 10, pady= 20, sticky="nsew")
+
+# Função para tratar eventos de teclado
+
+def pressionar_tecla(event):
+    tecla = event.char
+    if tecla.isdigit() or tecla in "()+-*/.,":  # Permitir números e operadores
+        tela.insert(tk.END, tecla)
+    elif tecla == '\r':  # Enter para calcular
+        clicar("=")
+    elif tecla == '\x08':  # Backspace para apagar
+        clicar("←")
+
+# Associar o evento de teclado à janela
+
+janela.bind("<Key>", pressionar_tecla)
+
+#Função dos botões
 
 def clicar(botao):
     if botao == "C":
