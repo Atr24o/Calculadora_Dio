@@ -22,7 +22,7 @@ def pressionar_tecla(event):
     elif tecla == '\r':  # Enter para calcular
         clicar("=")
     elif tecla == '\x08':  # Backspace para apagar
-        clicar("←")
+        clicar("⌫")
 
 # Associar o evento de teclado à janela
 
@@ -33,7 +33,7 @@ janela.bind("<Key>", pressionar_tecla)
 def clicar(botao):
     if botao == "C":
         tela.delete(0, tk.END)
-    elif botao == "←":
+    elif botao == "⌫":
         tela.delete(len(tela.get())-1, tk.END)
     elif botao == "=":
         try:
@@ -47,7 +47,7 @@ def clicar(botao):
         tela.insert(tk.END, botao)
 #Definição dos botões
 botoes = [
-    '(', ')', '←', '+',
+    '(', ')', '⌫', '+',
     '9', '8', '7', '-',
     '6', '5', '4', '*',
     '3', '2', '1', '/',
