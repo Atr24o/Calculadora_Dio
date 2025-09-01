@@ -2,8 +2,17 @@
 projeto de criação de calculadora do Dio
 
 
-O Projeto ainda se encontra em estágios iniciais portanto a interface está muito simples e é apenas um Place Holder (algo temporário para tapar buraco)
-para a ultilização do projeto, será necessário a instalação do IDLE na máquina e um aplicativo para que rode o código, logo em seguida faça o dowload do arquivo e execute em um aplicativo para rodar a calculadora
+O Projeto do grupo Programa Verseo é uma calculadora com fuincionaliades simples e práticas que consigam realizar calculos de forma rápida e simples, visando agilizar e dar assistencia a nossos usuarios, saslvando seu tempo dos monstros de 7 cabeças que as contas podem ser
+
+**integrantes:**
+- <a href="https://github.com/Atr24o" target="_blank">Arthur Henrique</a> (Project Owner)
+- <a href="https://github.com/Camismarcondesi" target="_blank">Camila Marcondes</a> (Scrum master)
+- Gabriel Lucas
+- Nayara Gabrieli
+- Larissa
+- Fernanda
+- Anna
+
 
 # Para a instalação do Python (IDLE)
 
