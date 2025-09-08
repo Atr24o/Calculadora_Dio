@@ -38,7 +38,7 @@ vá para o site: [https://www.python.org/downloads/ a](https://www.python.org/do
 
 **está tela ira abir, siga as intruções dela para realizar a instalação do Python em sua maquina local**
 
-![Untitled design (3)](https://github.com/user-attachments/assets/b59eac61-2615-4628-b8bc-b8829b304095)
+https://github.com/user-attachments/assets/34a65ddb-6a9f-4698-9a0e-16015ffab71c
 
 
 para a execução do nosso projeto de calculadora, você pode optar pelo aplicativo de sua preferência, porém nós da BDL optamos e recomendamos que use o VSCode (Visual Studio Code)
