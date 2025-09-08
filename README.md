@@ -55,7 +55,8 @@ vá para o site: https://code.visualstudio.com/download e faça download do apli
 
 **O arquivo de instalação será posto na máquina, execute ele e siga o passo a passo da instalação do modo que preferir**
 
-https://github.com/user-attachments/assets/73f91a62-f571-426f-8fab-122dd11094d4
+![Untitled design (4)](https://github.com/user-attachments/assets/4e6657d8-aa8d-4eee-9571-03992dbfe88b)
+
 
 # Para rodar o arquivo com os requisitos instalados na máquina
 
