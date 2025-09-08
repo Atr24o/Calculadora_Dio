@@ -4,6 +4,9 @@ projeto de criação de calculadora do Dio
 
 O Projeto do grupo Programa Verseo é uma calculadora com fuincionaliades simples e práticas que consigam realizar calculos de forma rápida e simples, visando agilizar e dar assistencia a nossos usuarios, saslvando seu tempo dos monstros de 7 cabeças que as contas podem ser
 
+<embed src="Green%20and%20Grey%20Simple%20Nature%20Presentation%20(3).pdf" width="600" height="400" type="application/pdf">
+
+
 **integrantes:**
 - <a href="https://github.com/Atr24o" target="_blank">Arthur Henrique</a> (Project Owner)
 - <a href="https://github.com/Camismarcondesi" target="_blank">Camila Marcondes</a> (Scrum master)
