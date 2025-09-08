@@ -62,6 +62,9 @@ vá para o site: https://code.visualstudio.com/download e faça download do apli
 
 **Acesse e Instale o Calc_Webverse.py pelo Github e siga os passos do video de ajuda abaixo:**
 
+![Untitled design (5)](https://github.com/user-attachments/assets/5efde969-89b3-426a-81ce-687a673075c1)
+
+![Untitled design (6)](https://github.com/user-attachments/assets/b18c7712-adec-403f-ad5b-f1afc2a95ca6)
 
 
-OPICIONAL: Fonte digital para a calculadora: https://font.download/font/quartz-ms
+_OPICIONAL: Fonte digital para a calculadora: https://font.download/font/quartz-ms_
