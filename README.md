@@ -30,8 +30,7 @@ vá para o site: [https://www.python.org/downloads/ a](https://www.python.org/do
 **A instalação de um arquivo ira iniciar ao clicar no botão, o arquivo é o que se encontra abaixo:**
 
 
-
-https://github.com/user-attachments/assets/7c97e2ce-af87-48f7-8796-c2b1037cf061
+![Untitled design (1)](https://github.com/user-attachments/assets/9120fb73-9141-4b89-9d69-be049dba89c5)
 
 
 
