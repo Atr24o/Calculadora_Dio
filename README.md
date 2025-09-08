@@ -24,11 +24,7 @@ vá para o site: [https://www.python.org/downloads/ a](https://www.python.org/do
 
  **Ao acessar o link ou pesquisar para realizar o dowload do python e clique no botão a baixo que se encontrara no site**
  
-
-
-https://github.com/user-attachments/assets/c6adde98-091e-4bdf-b08b-8efb6dc32f63
-
-
+![Untitled design](https://github.com/user-attachments/assets/6eb328f0-ede5-4ae6-aa9e-1fd8ae1b966c)
 
 
 **A instalação de um arquivo ira iniciar ao clicar no botão, o arquivo é o que se encontra abaixo:**
