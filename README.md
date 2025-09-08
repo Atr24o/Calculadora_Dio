@@ -25,7 +25,11 @@ vá para o site: [https://www.python.org/downloads/ a](https://www.python.org/do
  **Ao acessar o link ou pesquisar para realizar o dowload do python e clique no botão a baixo que se encontrara no site**
  
 
-https://github.com/user-attachments/assets/495dcf21-3d47-45bc-bf53-2578d3b7319b
+
+
+https://github.com/user-attachments/assets/884645eb-eb56-4dce-a13c-d13c37410140
+
+
 
 
 
