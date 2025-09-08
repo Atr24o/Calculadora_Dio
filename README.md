@@ -50,7 +50,8 @@ vá para o site: https://code.visualstudio.com/download e faça download do apli
 
 **O VSCode oferece seus serviçoes para multiplas plataformas, você deve instalar a opção de seu sistema operacional**
 
-https://github.com/user-attachments/assets/34a65ddb-6a9f-4698-9a0e-16015ffab71c
+![Untitled design (3)](https://github.com/user-attachments/assets/a05ef161-f11f-4e1c-9348-53a1554e3738)
+
 
 **O arquivo de instalação será posto na máquina, execute ele e siga o passo a passo da instalação do modo que preferir**
 
