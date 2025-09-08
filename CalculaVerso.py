@@ -21,8 +21,10 @@ def pressionar_tecla(event):
         tela.insert(tk.END, tecla)
     elif tecla == '\r':  # Enter para calcular
         clicar("=")
-    elif tecla == '\x08':  # Backspace para apagar
+    elif tecla == '\x08':  # Backspace para apagar o último número
         clicar("⌫")
+    elif event.keysym == 'Escape':  # Esc para apagar tudo
+        clicar("C")
 
 # Associar o evento de teclado à janela
 
