@@ -26,18 +26,24 @@ vá para o site: [https://www.python.org/downloads/ a](https://www.python.org/do
  
 
 
-
-https://github.com/user-attachments/assets/884645eb-eb56-4dce-a13c-d13c37410140
-
+https://github.com/user-attachments/assets/c6adde98-091e-4bdf-b08b-8efb6dc32f63
 
 
 
 
 **A instalação de um arquivo ira iniciar ao clicar no botão, o arquivo é o que se encontra abaixo:**
 
+
+
+https://github.com/user-attachments/assets/7c97e2ce-af87-48f7-8796-c2b1037cf061
+
+
+
 <img width="323" height="92" alt="image" src="https://github.com/user-attachments/assets/779d7140-b89b-4214-ba2d-0598d61e5ca2" />
 
 **está tela ira abir, siga as intruções dela para realizar a instalação do Python em sua maquina local**
+
+
 
 <img width="308" height="190" alt="image" src="https://github.com/user-attachments/assets/8bad17ec-e753-4600-b275-acdfa9eb19d4" />
 
