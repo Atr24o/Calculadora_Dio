@@ -55,4 +55,18 @@ para a execução do nosso projeto de calculadora, você pode optar pelo aplicat
 
 vá para o site: https://code.visualstudio.com/download e faça download do aplicatico e na sua execução busque executar o arquivo da calculadora
 
+**O VSCode oferece seus serviçoes para multiplas plataformas, você deve instalar a opção de seu sistema operacional**
+
+https://github.com/user-attachments/assets/34a65ddb-6a9f-4698-9a0e-16015ffab71c
+
+**O arquivo de instalação será posto na máquina, execute ele e siga o passo a passo da instalação do modo que preferir**
+
+https://github.com/user-attachments/assets/73f91a62-f571-426f-8fab-122dd11094d4
+
+# Para rodar o arquivo com os requisitos instalados na máquina
+
+**Acesse e Instale o Calc_Webverse.py pelo Github e siga os passos do video de ajuda abaixo:**
+
+
+
 OPICIONAL: Fonte digital para a calculadora: https://font.download/font/quartz-ms
